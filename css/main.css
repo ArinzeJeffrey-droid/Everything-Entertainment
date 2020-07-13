@@ -82,7 +82,6 @@
     .site-navigation {
         background: #9e0303;
         margin-bottom: 0px;
-        /* padding: 0.5em; */
         opacity: 0.8;
     }
     
@@ -102,7 +101,6 @@
         text-decoration: none;
         color: #fff;
         font-size: 20px;
-        /* background-color: #a81d1d; */
         background: #9e0303;
         padding: 1em;
         text-align: center;
@@ -128,9 +126,7 @@
     .cat-items {
         position: absolute;
         z-index: 1;
-        /* margin: auto; */
         display: none;
-        /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
     }
     
     .cat-items a {
@@ -191,29 +187,23 @@
             right: 35px;
         }
     }
-    /* css for the landing page */
     
     .first-post-layout {
-        /* border: 1px solid peru; */
         display: flex;
         flex-wrap: wrap;
         color: #fff;
         background-image: url("../img/dragon3.jpg");
         background-position: center center;
         background-size: cover;
-        /* width: calc(100% - 50px); */
     }
     
     .first-post-content {
-        /* border: 1px solid pink; */
         flex: 2;
         padding: 1em;
         display: flex;
-        /* flex-direction: column; */
     }
     
     .center-first-post {
-        /* padding: 1.5em; */
         margin: auto;
     }
     
@@ -228,7 +218,6 @@
     }
     
     .trending-topics {
-        /* border: 1px solid yellow; */
         padding: 1em;
         margin: auto;
         background-color: #111111;
@@ -251,10 +240,6 @@
     .first-post-category a {
         color: inherit;
         text-decoration: none;
-    }
-    
-    .topic-container {
-        /* border: 1px solid pink; */
     }
     
     .topic {
@@ -290,11 +275,9 @@
         display: flex;
         flex-direction: column;
         border: 1px solid #252525;
-        /* background-color: #252525; */
     }
     
     .post-img {
-        /* border: 1px solid blue; */
         height: 200px;
         width: 300px;
         padding: 1em;

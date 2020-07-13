@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Hidden navigation -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">Login</a>
+            <a href="profile.html">Profile</a>
+            <a href="#">Sauce Finder</a>
+            <a href="#">View All Posts</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <!-- end of hidden navigation -->
+    <!-- search form begins -->
+    <div id="mySearch" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+        <div class="overlay-content">
+            <form action="" class="form-inline">
+                <input type="text" class="form-control search-field" placeholder="Search.....">
+                <button class="btn btn-primary">search</button>
+            </form>
+        </div>
+    </div>
+    <!-- end of search form -->
+    <!-- Container Starts for Navigation -->
+    <div class="container-fluid">
+        <!-- Site Header and Navigation starts -->
+        <div class="site-header">
+            <div class="site-title">
+                <a href="#">
+                    <h1>Everything <span>Entertainment</span></h1>
+                </a>
+            </div>
+            <nav class="site-navigation">
+                <ul>
+                    <li class="hide-ham">
+                        <a onclick="openNav()" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <div class="category-dropdown ">
+                        <li class="hide-nav ">
+                            <a href="# ">Categories</a>
+                        </li>
+                        <div class="cat-items ">
+                            <a href="# ">Anime</a>
+                            <a href="# ">Comics</a>
+                            <a href="# ">Movies</a>
+                            <a href="# ">Manga</a>
+                        </div>
+                    </div>
+                    <!-- <li class="hide-nav sauce ">
+                        <a href="# ">Sauce Finder</a>
+                    </li> -->
+                    <li class="hide-nav">
+                        <a href="# ">Login</a>
+                    </li>
+                    <li class="navigation-search ">
+                        <a onclick="openSearch()" href="javascript:void(0)"><span class="glyphicon glyphicon-search "></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End of Site Navigation -->
+    </div>
+    <!-- Container ends for navigation -->
+    <!-- start for landing page -->
+    <div class="container-fluid">
+        <div id="test" class="first-post-layout">
+            <main class="first-post-content">
+                <div class="center-first-post">
+                    <div class="first-post-category">
+                        <h4>
+                            <a href="#">Anime</a>
+                        </h4>
+                    </div>
+                    <div class="first-post-title">
+                        <h1>
+                            <a href="">Naruto vs Bleach, Which is the better anime</a>
+                        </h1>
+                    </div>
+                    <div class="first-post-author">
+                        <p>by
+                            <a href="#">Babs Ayodele</a> May 15 / 2020 <span></span>
+                        </p>
+                    </div>
+                </div>
+            </main>
+            <main class="trending-topics">
+                <h1>Trending Topics</h1>
+                <div class="topic-container">
+                    <div class="topic">
+                        <div class="topic-image">
+                            <img width="70" height="70" src="img/avatar.png" alt="">
+                        </div>
+                        <div class="topic-title">
+                            <h4>
+                                <a href="#">Some topic title</a>
+                            </h4>
+                            <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                        </div>
+                    </div>
+                    <div class="topic">
+                        <div class="topic-image">
+                            <img width="70" height="70" src="img/avatar.png" alt="">
+                        </div>
+                        <div class="topic-title">
+                            <h4>
+                                <a href="#">Some topic title</a>
+                            </h4>
+                            <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                        </div>
+                    </div>
+                    <div class="topic">
+                        <div class="topic-image">
+                            <img width="70" height="70" src="img/avatar.png" alt="">
+                        </div>
+                        <div class="topic-title">
+                            <h4>
+                                <a href="#">Some topic title</a>
+                            </h4>
+                            <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                        </div>
+                    </div>
+                    <div class="topic">
+                        <div class="topic-image">
+                            <img width="70" height="70" src="img/avatar.png" alt="">
+                        </div>
+                        <div class="topic-title">
+                            <h4>
+                                <a href="#">Some topic title</a>
+                            </h4>
+                            <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- end for landing page -->
+    <!-- start for posts list -->
+    <div class="container-fluid posts-container">
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">comics</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="single_post.html">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon2.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">anime</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="#">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">movies</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="#">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon3.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">movies</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="#">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">movies</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="#">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="post col-md-4">
+            <div class="post-img">
+                <img class="img-rounded my-thumbnail" src="img/dragon2.jpg" alt="">
+            </div>
+            <div class="post-category">
+                <h4>
+                    <a href="#">movies</a>
+                </h4>
+            </div>
+            <div class="post-title">
+                <h2><a href="#">some post title</a></h2>
+            </div>
+            <div class="post-author">
+                <p><small>by <a href="#">Babs Ayodele</a> May 15 / 2020</small></p>
+                <p style="text-align: center;">15 <span class="glyphicon glyphicon-comment"></span></p>
+            </div>
+        </div>
+        <div class="paginate">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end of post list -->
+    <!-- start of top movie trailer -->
+    <div class="container-fluid">
+        <div class="trailer">
+            <div class="trailer-clip">
+                <div class="trailer-video">
+                    <img class="my-thumbnail" src="img/dragon.jpg" alt="">
+                </div>
+                <div class="trailer-title">
+                    <h3>
+                        <a href="#">Check OuT The Trailer For Ninja</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="site-socials">
+                <h2>Social Media</h2>
+                <div class="socials-container">
+                    <div class="icon">
+                        <a class="btn btn-primary btn-block btn-lg" href="#">Facebook</a>
+                        <a class="btn btn-info btn-block btn-lg" href="#">Twitter</a>
+                        <a class="btn btn-danger btn-block btn-lg" href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of top movie trailer -->
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="footer-details">
+            <div class="copy">
+                <p>Copyright © 2020 All rights reserved</p>
+            </div>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Support</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</html>
+
+</html>

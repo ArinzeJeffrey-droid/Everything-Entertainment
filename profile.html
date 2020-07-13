@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Hidden navigation -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">Login</a>
+            <a href="profile.html">Profile</a>
+            <a href="#">Sauce Finder</a>
+            <a href="#">View All Posts</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <!-- end of hidden navigation -->
+    <!-- search form begins -->
+    <div id="mySearch" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+        <div class="overlay-content">
+            <form action="" class="form-inline">
+                <input type="text" class="form-control search-field" placeholder="Search.....">
+                <button class="btn btn-primary">search</button>
+            </form>
+        </div>
+    </div>
+    <!-- end of search form -->
+    <!-- Container Starts for Navigation -->
+    <div class="container-fluid">
+        <!-- Site Header and Navigation starts -->
+        <div class="site-header">
+            <div class="site-title">
+                <a href="#">
+                    <h1>Everything <span>Entertainment</span></h1>
+                </a>
+            </div>
+            <nav class="site-navigation">
+                <ul>
+                    <li class="hide-ham">
+                        <a onclick="openNav()" href="javascript:void(0)"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <div class="category-dropdown ">
+                        <li class="hide-nav ">
+                            <a href="# ">Categories</a>
+                        </li>
+                        <div class="cat-items ">
+                            <a href="# ">Anime</a>
+                            <a href="# ">Comics</a>
+                            <a href="# ">Movies</a>
+                            <a href="# ">Manga</a>
+                        </div>
+                    </div>
+                    <!-- <li class="hide-nav sauce ">
+                            <a href="# ">Sauce Finder</a>
+                        </li> -->
+                    <li class="hide-nav">
+                        <a href="# ">Login</a>
+                    </li>
+                    <li class="navigation-search ">
+                        <a onclick="openSearch()" href="javascript:void(0)"><span class="glyphicon glyphicon-search "></span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- End of Site Navigation -->
+        <!-- Start of User Profile -->
+        <div class="container-fluid gg">
+            <div class="profile-wrapper">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="img/avatar.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of user profile -->
+
+</body>
+
+</html>
